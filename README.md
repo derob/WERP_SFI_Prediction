@@ -1,31 +1,25 @@
-# python_projects
+# werp_sfi_prediction
 
-[![codecov](https://codecov.io/gh/fre171csiro/python-projects/branch/main/graph/badge.svg?token=python-projects_token_here)](https://codecov.io/gh/fre171csiro/python-projects)
-[![CI](https://github.com/fre171csiro/python-projects/actions/workflows/main.yml/badge.svg)](https://github.com/fre171csiro/python-projects/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/fre171csiro/werp-sfi-prediction/branch/main/graph/badge.svg?token=werp-sfi-prediction_token_here)](https://codecov.io/gh/fre171csiro/werp-sfi-prediction)
+[![CI](https://github.com/fre171csiro/werp-sfi-prediction/actions/workflows/main.yml/badge.svg)](https://github.com/fre171csiro/werp-sfi-prediction/actions/workflows/main.yml)
 
-Awesome python_projects created by fre171csiro
+# WERP SFI Prediction demonstration
 
-## Install it from PyPI
+werp_sfi_prediction created by CSIRO
 
-```bash
-pip install python_projects
-```
+The purpose of this package is to demonstrate the methods to predict the probability of Site Specific Flow Indicator (SFI) success give annual inflows and environmental water recovery. The workflow uses flows and SFI analyses that have been post-processed from the Integrated River System Modelling Framework (IRSMF) as input for inference and thereafter can use other time series of inflow and environmental water recover for predictions.
 
-## Usage
+There are 3 notebooks that have been used to generate all analysis and figures presented in WERP deliverable TP19:
+1. ***paper_notebook_version2.ipynb*** undertakes cross-validation predictions for historical periods to demonstrate the performanc of different model configurations.
+2. ***paper_notebook_verif_plotting_v1.ipynb*** uses the results fromt the above notebook and generates plots of performance scores.
+3. ***paper_notebook_predict_2012-24.ipynb*** generates predictions for the period 2012-2024 using independent estimates of catchment inflows and actual environmental water recovery obtained from MDBA reporting. This notebook can be used for assessing the impact of environmental water recovery on the likelihood of SFI success under prevailing climate conditions. 
 
-```py
-from python_projects import BaseClass
-from python_projects import base_function
+The notebooks generate results for Barmah and Chowilla SFIs but data int he files can also support analysis at other locations.
 
-BaseClass().base_method()
-base_function()
-```
+The code has been tested in the poetry virtual environment provided with this package. Details on the installation and use of the package are provided below.
 
-```bash
-$ python -m python_projects
-#or
-$ python_projects
-```
+Futher details are available from David Robertson (David.Robertson@csiro.au) and Andrew Schepen (Andrew.Schepen@csiro.au).
+
 
 ## Development
 ### Getting Started

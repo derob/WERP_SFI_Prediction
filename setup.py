@@ -1,4 +1,4 @@
-"""Python setup.py for python_projects package"""
+"""Python setup.py for werp_sfi_prediction package"""
 import io
 import os
 from setuptools import find_packages, setup
@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 def read(*paths, **kwargs):
     """Read the contents of a text file safely.
-    >>> read("python_projects", "VERSION")
+    >>> read("werp_sfi_prediction", "VERSION")
     '0.1.0'
     >>> read("README.md")
     ...
@@ -30,17 +30,17 @@ def read_requirements(path):
 
 
 setup(
-    name="python_projects",
-    version=read("python_projects", "VERSION"),
-    description="Awesome python_projects created by fre171csiro",
-    url="https://github.com/fre171csiro/python-projects/",
+    name="werp_sfi_prediction",
+    version=read("werp_sfi_prediction", "VERSION"),
+    description="Awesome werp_sfi_prediction created by fre171csiro",
+    url="https://github.com/fre171csiro/werp-sfi-prediction/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
     author="fre171csiro",
     packages=find_packages(exclude=["tests", ".github"]),
     install_requires=read_requirements("requirements.txt"),
     entry_points={
-        "console_scripts": ["python_projects = python_projects.__main__:main"]
+        "console_scripts": ["werp_sfi_prediction = werp_sfi_prediction.__main__:main"]
     },
     extras_require={"test": read_requirements("requirements-test.txt")},
 )

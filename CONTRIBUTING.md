@@ -1,6 +1,6 @@
 # How to develop on this project
 
-python_projects welcomes contributions from the community.
+werp_sfi_prediction welcomes contributions from the community.
 
 **You need PYTHON3!**
 
@@ -8,9 +8,9 @@ This instructions are for linux base systems. (Linux, MacOS, BSD, etc.)
 ## Setting up your own fork of this repo.
 
 - On github interface click on `Fork` button.
-- Clone your fork of this repo. `git clone git@github.com:YOUR_GIT_USERNAME/python-projects.git`
-- Enter the directory `cd python-projects`
-- Add upstream repo `git remote add upstream https://github.com/fre171csiro/python-projects`
+- Clone your fork of this repo. `git clone git@github.com:YOUR_GIT_USERNAME/werp-sfi-prediction.git`
+- Enter the directory `cd werp-sfi-prediction`
+- Add upstream repo `git remote add upstream https://github.com/fre171csiro/werp-sfi-prediction`
 
 ## Setting up your own virtual environment
 

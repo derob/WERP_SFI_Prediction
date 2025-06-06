@@ -1,5 +1,5 @@
-from python_projects.base import NAME
+from werp_sfi_predictions.base import NAME
 
 
 def test_base():
-    assert NAME == "python_projects"
+    assert NAME == "werp_sfi_prediction"

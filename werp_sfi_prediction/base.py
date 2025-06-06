@@ -1,7 +1,7 @@
 """
-python_projects base module.
+werp_sfi_prediction base module.
 
-This is the principal module of the python_projects project.
+This is the principal module of the werp_sfi_prediction project.
 here you put your main classes and objects.
 
 Be creative! do whatever you want!
@@ -14,4 +14,4 @@ and then choose `flask` as template.
 """
 
 # example constant variable
-NAME = "python_projects"
+NAME = "werp_sfi_prediction"
